@@ -7,11 +7,20 @@
   <link href="output.css" rel="stylesheet">
 </head>
 <body class="bg-gradient-to-r from-pink-100 via-red-200 to-pink-100 min-h-screen flex items-center justify-center">
-<div class="bg-white shadow-md rounded-lg p-6 max-w-screen-md mx-auto">
-  <header class="text-center">
+<div class="bg-white shadow-md rounded-lg p-6 max-w-screen-md mx-auto border-4 border-red-400">
+  <header class="text-center relative mt-4">
     <h1 class="text-3xl font-bold text-blue-600">Application for Riding Partner</h1>
     <p class="mt-1 text-gray-500 italic">"Because every journey is better with the right company."</p>
+    <img src="./img_2.png"
+         alt="Christmas hat"
+         class="absolute top-[-40px] left-1/2 transform -translate-x-1/2 w-12 h-12">
   </header>
+
+  <div class="mt-4 flex justify-center space-x-2">
+    <img src="./snowflake.png" alt="Snowflake" class="w-6 h-6">
+    <img src="./img.png" alt="Candy cane" class="w-6 h-6">
+    <img src="./img_1.png" alt="Bell" class="w-6 h-6">
+  </div>
 
   <section class="mt-5">
     <h2 class="text-lg font-semibold text-gray-800">Personal Information</h2>
@@ -37,6 +46,7 @@
       <li>A good sense of humor to keep the conversations lively.</li>
       <li>Attentive listener, perfect for deep talks or sharing random fun facts.</li>
       <li>Skilled in creating a relaxed and comfortable atmosphere.</li>
+      <li>Talented singer with the ability to turn any moment into a mini-concert.</li>
     </ul>
   </section>
 
@@ -65,6 +75,34 @@
     <p class="mt-2 text-gray-700">
       The fun we had on our first date is my best reference. If you’d like a follow-up ride to relive that energy, I’d be thrilled to make it happen.
     </p>
+  </section>
+
+  <section class="mt-5">
+    <h2 class="text-xl font-semibold text-gray-800 text-center">🎄 About Me 🎁</h2>
+    <div class="mt-4 flex items-center space-x-4 h-fit">
+      <div class="relative">
+        <img
+          src="./me.jpeg"
+          alt="Your photo"
+          class="w-56 h-56 rounded-full shadow-md object-cover object-top"
+        />
+        <div class="absolute top-0 left-0 w-16 h-16 bg-red-500 rounded-full flex items-center justify-center shadow-lg transform -translate-x-4 -translate-y-4">
+          <span class="text-white text-2xl">🎅</span>
+        </div>
+        <div class="absolute top-0 right-0 w-16 h-16 bg-green-500 rounded-full flex items-center justify-center shadow-lg transform translate-x-4 -translate-y-4">
+          <span class="text-white text-2xl">❄️</span>
+        </div>
+        <div class="absolute bottom-0 left-0 w-16 h-16 bg-yellow-400 rounded-full flex items-center justify-center shadow-lg transform -translate-x-4 translate-y-4">
+          <span class="text-white text-2xl">🎁</span>
+        </div>
+        <div class="absolute bottom-0 right-0 w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center shadow-lg transform translate-x-4 translate-y-4">
+          <span class="text-white text-2xl">✨</span>
+        </div>
+      </div>
+      <p class="text-gray-700 flex-1 h-full">
+        I’m not just a great rider—I can sing too! Whether it’s humming a tune during a break or serenading a special moment, music is my way of adding joy to life.
+      </p>
+    </div>
   </section>
 
   <footer class="mt-6 text-center">
