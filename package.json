@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.15"
+  },
+  "name": "driver-license",
+  "version": "1.0.0",
+  "scripts": {
+    "css:watch": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
